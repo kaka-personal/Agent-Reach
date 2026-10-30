@@ -3,7 +3,7 @@ name: agent-reach
 description: >
   Read-only access to platform content: search, read posts, view comments, fetch subtitles, stock quotes and jobs.
   Use when the user mentions or pastes a link from Xiaohongshu, Bilibili, Twitter/X, Reddit,
-  YouTube (subtitles, transcripts), GitHub, V2EX, LINUX DO/linux.do, NodeSeek, Xueqiu/stock quotes, LinkedIn/Boss Zhipin jobs,
+  YouTube (subtitles, transcripts), GitHub, V2EX, LINUX DO/linux.do, NodeSeek, Zhihu, Hacker News/HN, arXiv papers, Xueqiu/stock quotes, LinkedIn/Boss Zhipin jobs,
   Instagram, Facebook or Xiaoyuzhou podcasts; or wants hot topics, discussions or opinions from Chinese tech communities;
   or says "search / look up / read this link" and your built-in
   web search or fetch is unavailable, fails, or misses the body;

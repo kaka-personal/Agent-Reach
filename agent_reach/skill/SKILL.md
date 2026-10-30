@@ -3,7 +3,7 @@ name: agent-reach
 description: >
   只读读取各平台内容：搜索、读帖、看评论、取字幕、查行情和职位。
   Use when 用户提到或贴出链接：小红书/xiaohongshu、B站/bilibili、Twitter/X、Reddit、
-  YouTube（字幕、转录）、GitHub、V2EX、LINUX DO/linux.do、NodeSeek、雪球/股票行情、LinkedIn/Boss直聘 职位、
+  YouTube（字幕、转录）、GitHub、V2EX、LINUX DO/linux.do、NodeSeek、知乎、Hacker News/HN、arXiv 论文、雪球/股票行情、LinkedIn/Boss直聘 职位、
   Instagram、Facebook、小宇宙播客；或要看中文技术社区的热帖、讨论和口碑；
   或说"帮我搜/看看/读一下这个链接"而自带网页搜索/读取不可用、失败或拿不到正文；
   或要安装、加上/去掉某个平台、登录/退出、看状态、更新、卸载 Agent Reach。

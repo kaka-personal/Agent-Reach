@@ -17,6 +17,9 @@ _PUBLIC_ACCESS = {
     'bilibili': '公开搜索、简介、统计可先读；部分公开接口可取评论及回复关系。',
     'xiaoyuzhou': '播客转录需要 Groq Key；安装不要求登录。',
     'v2ex': '公开主题正文和部分回复可先读；完整性、分页需要单独核对。',
+    'hackernews': '首页、搜索和完整评论树都走公开接口，不需要登录。',
+    'arxiv': '论文元信息和摘要走官方公开接口；不含 PDF 全文。',
+    'zhihu': '公开搜索摘要可先尝试；热榜、问题和回答全文按所选路径判断。',
     'reddit': '公开搜索、正文和部分评论可先读；部分公开 JSON 样本可含评论及 parent_id。',
     'twitter': '公开搜索摘要、部分单帖全文可先尝试；公开嵌入不提供评论流。',
     'xiaohongshu': '公开发现页可能提供笔记 ID 和作者；不据此认定正文、评论可读。',
@@ -50,6 +53,9 @@ _QUICK_ACCESS = {
     'youtube': ('✅ 找视频、读简介、读字幕', '—'),
     'bilibili': ('✅ 找视频、读简介', '❌ 读字幕'),
     'v2ex': ('✅ 读帖子、看回复', '—'),
+    'hackernews': ('✅ 看热门、搜帖子、读评论', '—'),
+    'arxiv': ('✅ 搜论文、读摘要', '—'),
+    'zhihu': ('✅ 搜摘要', '❌ 看热榜、读问题和回答'),
     'web': ('✅ 搜资料、读网页', '—'),
     'reddit': ('✅ 搜帖子、读正文、看评论', '—'),
     'twitter': ('✅ 搜摘要、试读原文', '❌ 搜推文、看动态、看回复'),
@@ -67,6 +73,7 @@ _DISPLAY_NAMES = {
     'web': '网页', 'reddit': 'Reddit', 'twitter': 'X / Twitter', 'facebook': 'Facebook',
     'instagram': 'Instagram', 'xiaohongshu': '小红书', 'linkedin': 'LinkedIn',
     'boss': 'BOSS直聘', 'xueqiu': '雪球',
+    'hackernews': 'Hacker News', 'arxiv': 'arXiv', 'zhihu': '知乎',
 }
 
 _STATUS_LABELS = {

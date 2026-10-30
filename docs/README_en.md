@@ -108,10 +108,13 @@ This table reflects the current release.
 | youtube | default | video info, search, subtitles, speech-to-text | nothing; speech-to-text needs a Groq or OpenAI key |
 | web | default | web search, page reading (fallback) | nothing |
 | v2ex | default | hot topics, nodes, topics with replies, users | nothing |
+| hackernews | default | front page, search, stories with comment trees | nothing |
+| arxiv | default | paper search, paper metadata and abstracts | nothing |
 | bilibili | default | search, video info, trending, subtitles | nothing; subtitles need a login (QR scan) |
 | reddit | optional | search posts, read text/comments, browse a subreddit | login |
 | linkedin | optional | search jobs, read job details | public jobs need nothing; in-site search needs a login |
 | xiaohongshu | optional | search notes, read text, view comments | login |
+| zhihu | optional | hot list, search, questions and answers | login |
 | xueqiu | optional | real-time quotes, stock search, hot posts, hot stocks | quotes need nothing; hot posts and stocks need a login |
 | boss | optional | job and JD search | login |
 | xiaoyuzhou | optional | podcast transcription | Groq key |

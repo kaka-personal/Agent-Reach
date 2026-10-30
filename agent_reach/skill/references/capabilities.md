@@ -26,6 +26,9 @@ Read when the user asks what can be fetched or how complete a result is. Declare
 | V2EX | 主题、正文及公开回复 | hot/node/read/user；返回范围以本次响应为准，不保证隐藏或缺失回复 |
 | LINUX DO | `site:linux.do` 搜索摘要；公开帖可经页面或 `/t/<id>.json` 读取 | 暂无 Reach 渠道，由 Agent 自带工具读取；Cloudflare 常拦匿名请求，部分版块需登录和信任等级 |
 | NodeSeek | `site:nodeseek.com` 搜索摘要；公开帖页面 | 暂无 Reach 渠道，由 Agent 自带工具读取；Cloudflare 常拦匿名请求，没有官方热门榜 |
+| Hacker News | 首页、搜索、帖子与评论 | hot/search/read；read 一次返回整棵评论树，最多 200 条 |
+| arXiv | 论文元信息和摘要 | search/read；只返回摘要，不含 PDF 全文；官方接口偶发 429/503，会等 3 秒重试一次 |
+| 知乎 | 搜索摘要；多数问题页需要登录才能看全回答 | hot/search/read（问题加前几条回答，或单个回答全文）；走 OpenCLI 浏览器，不支持专栏文章 |
 | 雪球 | 部分公开行情和索引信息 | quote/search/hot_posts/hot_stocks；行情与社区路径分别验收 |
 | Web | Agent 自带搜索/读取 | Reach web search/read 为匿名保底；摘要、页面壳和验证页不能当完整正文 |
 | 小宇宙 | 节目页标题、简介 | transcribe 整集转文字；需要用户提供 Groq Key（`agent-reach configure groq-key`） |

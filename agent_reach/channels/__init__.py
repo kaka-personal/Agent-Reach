@@ -5,11 +5,13 @@ Channel registry — every platform exposed by `agent-reach <channel> <action>`.
 
 from typing import List, Optional
 
+from .arxiv import ArxivChannel
 from .base import Channel
 from .bilibili import BilibiliChannel
 from .boss import BossChannel
 from .facebook import FacebookChannel
 from .github import GitHubChannel
+from .hackernews import HackerNewsChannel
 from .instagram import InstagramChannel
 from .linkedin import LinkedInChannel
 from .reddit import RedditChannel
@@ -20,6 +22,7 @@ from .xiaohongshu import XiaoHongShuChannel
 from .xiaoyuzhou import XiaoyuzhouChannel
 from .xueqiu import XueqiuChannel
 from .youtube import YouTubeChannel
+from .zhihu import ZhihuChannel
 
 ALL_CHANNELS: List[Channel] = [
     GitHubChannel(),
@@ -30,9 +33,12 @@ ALL_CHANNELS: List[Channel] = [
     InstagramChannel(),
     BilibiliChannel(),
     XiaoHongShuChannel(),
+    ZhihuChannel(),
     LinkedInChannel(),
     BossChannel(),
     V2EXChannel(),
+    HackerNewsChannel(),
+    ArxivChannel(),
     XueqiuChannel(),
     XiaoyuzhouChannel(),
     WebChannel(),
